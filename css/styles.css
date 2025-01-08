@@ -1,66 +1,95 @@
+/* Updated styles.css */
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #e9e9e9;
 }
 
 header {
-    background: #333;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+header .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-nav ul li {
-    margin: 0 15px;
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
 }
 
-nav ul li a {
-    color: white;
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
-#hero {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
-    color: white;
+header nav a:hover {
+    color: #ffa500;
 }
+
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    background-color: #002f4b;
+    color: #fff;
+}
+
+#intro .intro-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#intro img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#intro h2 {
+    
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.about-me {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    line-height: 1.6;
+    color: #333; 
+    font-weight: 400;
+  }
 
 section {
-    padding: 40px 20px;
-}
-
-.project {
-    background: #fff;
-    padding: 20px;
-    margin: 10px 0;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 20px 0;
-    background-color: #2575fc;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 footer {
     text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: white;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
 }
