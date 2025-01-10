@@ -254,9 +254,28 @@ section {
   
 /* Timeline container end */ 
 
+/* Footer Styling */
+
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links a, .footer-social a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover, .footer-social a:hover {
+  text-decoration: underline;
+}
+
